@@ -1,0 +1,3 @@
+# Unhandled JSON Decoding Exception in Dart
+
+This repository demonstrates a common error in Dart applications involving JSON decoding: failure to handle cases where the expected key is missing from the JSON response.  The `bug.dart` file contains code that throws an exception if the key "someKey" is not present in the JSON data received from an API.  The `bugSolution.dart` file provides a solution by implementing robust error handling to prevent crashes.
